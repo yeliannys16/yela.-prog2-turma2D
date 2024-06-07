@@ -1,27 +1,30 @@
 :root {
-    --branco-principal:#ffffff;
-    --cinza-secundario:#C0C0C0;
-    --botao-azul:#167BF7;
-    --cor-de-fundo:#00030C;
+    --branco-principal: #ffffff;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
 }
-body{
+
+body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
 }
+
 * {
     margin: 0;
     padding: 0;
 }
+
 .principal {
     background-image: url("img/Background.png");
 }
+
 .container {
     height: 100vh;
 }
+
 .principal {
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
-
-
